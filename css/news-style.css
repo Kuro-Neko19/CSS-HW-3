@@ -1,0 +1,38 @@
+.backGround {
+    background: rgb(134,134,134);
+    background: linear-gradient(315deg, rgb(206, 253, 255) 0%, rgb(73, 237, 255) 100%);
+}
+
+.etc {
+    background-color: white;
+    width: 2000px;
+    height: 3000px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 20%;
+    padding-bottom: 50px;
+    font-size: 100px;
+}
+
+.title {
+    background-color: azure;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+
+.sourse {
+    text-align: center;
+}
+
+.advertisement {
+    margin-top: -1500px;
+    background-color: white;
+    text-align: center;
+    height: 260px;
+    width: 1500px;
+    line-height: 10px;
+    font-size: 80px;
+    float: right;
+    transform-origin: top right;
+    transform: rotate(90deg);
+}

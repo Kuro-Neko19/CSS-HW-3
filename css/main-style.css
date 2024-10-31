@@ -1,0 +1,120 @@
+.backGround {
+    background: rgb(134,134,134);
+    background: linear-gradient(315deg, rgb(206, 253, 255) 0%, rgb(73, 179, 255) 100%);
+}
+
+.Newsline {
+    background-color: rgb(113, 180, 255);
+    width: 2000px;
+    height: auto;
+    max-height: 10000px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 20%;
+    padding-bottom: 50px;
+}
+
+.top {
+    background-image: url('https://img2.akspic.ru/previews/8/5/8/8/7/178858/178858-transportnaya_inzheneriya-transport-inzheneriya-upravlenie_trafikom-razvyazka_sudi_garri_pregerson-x750.jpg');
+    background-size: cover;
+    height: 800px;
+    line-height: 800px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    font-size: 80px;
+    text-align: center;
+}
+
+.menu {
+    height: 100px;
+    background-color: white;
+    margin-top: -100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-right: 50px;
+    text-shadow: none;
+}
+
+.news {
+    background-color: white;
+    margin-top: 130px;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 80px;
+    width: 1900px;
+    height: auto;
+    max-height: 3200px;
+    border: 5px;
+    border: double;
+    border-color: green;
+
+}
+
+.news:nth-child(2n+1){
+    background-color: yellow;
+}
+
+.news:nth-child(-n+3) #text::before{
+    content: "New!!!";
+    font-size: 50px;
+    color: red;
+}
+
+#backtext {
+    background-color: azure;
+    margin-left: -40px;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: auto;
+    min-height: 120px; 
+    max-height: 240px;     
+}
+
+#text {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    margin-top: 30px;
+    width: 1860px;
+    height: auto;
+    max-height: 3000px;
+}
+
+#info {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    width: 1940px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -40px;
+    font-size: 40px;
+}
+
+#date {
+    margin-left: 50px;
+}
+
+#author {
+    margin-left: 60px;
+}
+
+.end {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
